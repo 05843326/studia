@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: hsl(10, 10%, 95%);
+}
+
+
+
+.navigation ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 88%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(106, 177, 201);
+    font-weight: 400;
+}
+.navigation a:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.navigation li{
+    float: left;
+}
+
+
+.nazwa{
+    color: rgb(106, 177, 201);
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.gymimg{
+    background-image: url("gym.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+
+    
+}
+
+.container{
+    padding-top: 50px;
+    margin: 40px;
+    background-color: hsla(0, 0%, 50%, 0.6);
+    border-radius: 50px;
+    padding-bottom: 40px;
+}
+
+.opis {
+    background-color: rgba(128, 128, 128, 0.815);
+    box-shadow: 0 0 55px black;
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+}
+
+.opis1 {
+    background-color: rgba(128, 128, 128, 0.815);
+    box-shadow: 0 0 55px black;
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+}
+
+.myh1{
+    margin: 20px;
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: hsl(0, 0%, 85%);
+}
+
+.myp{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: hsl(0, 0%, 85%);
+}
+
+footer{
+    background-color: #e1e1e1;
+    margin: 0px;
+    padding: 10px 10px;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.GymBroFooter{
+   float:left;
+   color: rgb(106, 177, 201);
+   font-size: 40px;
+    margin-top: -30px;
+}

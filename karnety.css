@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 90%);
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 88%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(106, 177, 201);
+    font-weight: 400;
+}
+.navigation a:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.navigation li{
+    float: left;
+}
+
+
+.nazwa{
+    color: rgb(106, 177, 201);
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+
+
+
+.container{
+    height: 74.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.karnet{
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    background-color: hsl(10, 10%, 90%);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.korzysci ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.korzysci li{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(235, 152, 0);
+    color: hsl(10, 10%, 90%);
+    padding:15px;
+    font-size: 20px;
+}
+#btn1{
+margin-top: 60px;
+}
+#btn3{
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #e1e1e1;
+    margin: 0px;
+    padding: 10px 10px;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.GymBroFooter{
+   float:left;
+   color: rgb(106, 177, 201);
+   font-size: 40px;
+    margin-top: -30px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+ color: hsl(10, 10%, 90%);
+}

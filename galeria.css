@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: hsl(10, 10%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    flex-shrink: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 88%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(106, 177, 201);
+    font-weight: 400;
+}
+
+.navigation a:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.navigation li {
+    float: left;
+}
+
+.nazwa {
+    color: rgb(106, 177, 201);
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    transition: opacity 1s;
+    opacity: 0;
+    display: none;
+}
+
+.displaySlide {
+    opacity: 1;
+    display: block;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.slide img {
+    min-width: 50%;
+    min-height: 50%;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #e1e1e1;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+.GymBroFooter {
+    float: left;
+    color: rgb(106, 177, 201);
+    font-size: 40px;
+    margin-top: -30px;
+}
